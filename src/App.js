@@ -1,13 +1,13 @@
 import React from 'react';
 // Styles
 import './App.scss';
-// Components
-import Home from './pages/Home';
+// Router
+import Routes from 'Routes';
 
 const App = () => {
   return (
     <div className="App">
-      <Home />
+      <Routes />
     </div>
   );
 };

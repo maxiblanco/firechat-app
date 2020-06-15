@@ -1,9 +1,12 @@
 import React from 'react';
+// Components
+import Campfire from 'components/Campfire';
+// Styles
 import './index.scss';
 
-const Home = () => (
+const Home = ({ history }) => (
   <>
-    <p>Soy una home</p>
+    <Campfire history={history} />
   </>
 );
 
