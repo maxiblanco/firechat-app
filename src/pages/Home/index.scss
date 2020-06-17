@@ -1,0 +1,28 @@
+.home-campfireBot-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-campfireBot-content {
+  width: 85%;
+  height: auto;
+  position: absolute;
+  margin: auto;
+}
+
+.home-campfireBot-greeting {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  label {
+    margin-bottom: 10px;
+  }
+}

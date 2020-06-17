@@ -22,7 +22,6 @@ const Campfire = ({ history }) => {
   return (
     <div className="campfire-container" onClick={handleOnClick}>
       <Lottie options={defaultOptions} />
-      <p>I'm a Capfire!</p>
     </div>
   );
 };
