@@ -1,0 +1,36 @@
+.input-chat-container {
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #432b51;
+    background: #432b51;
+    background-image: url("../../assets/icons/arrowIcon.png");
+    background-size: 16px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.16)
+  }
+
+  input {
+    width: 80%;
+    background: #e0eafc;
+    border: 1px solid #e0eafc;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+
+    &::placeholder {
+      color: #3B4280;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.user-item-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+}
+
+.user-item-messages {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  align-items: flex-end;
+}
+
+.user-item-container label {
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+  background: #3B4280;
+  border-radius: 5px;
+  width: fit-content;
+  font-weight: normal;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 10px 5px 0;
+}

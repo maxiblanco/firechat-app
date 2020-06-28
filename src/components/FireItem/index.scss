@@ -1,0 +1,26 @@
+.fire-item-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
+
+.fire-item-messages {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  justify-content: flex-start;
+
+}
+
+.fire-item-container label {
+  font-size: 14px;
+  line-height: 25px;
+  color: #ffffff;
+  background: #3B4280;
+  border-radius: 5px;
+  width: fit-content;
+  font-weight: normal;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0 10px 5px 0;
+}
